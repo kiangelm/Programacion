@@ -1,0 +1,24 @@
+Arreglos:
+Estandar(built in): int data [10000000]; con esto se pide memoria para 1000000 enteros.
+utilizar arreglos es importante para tener los datos continuos y optimizar los datos.
+índice index empieza en 0 y termina en n-1
+los arreglos son homogeneos, es decir, todos los datos son del mismo tipo (todos int, o todos double, etc)
+int data [1000000];
+data [7]=20;
+int sum= 0;
+for (int ii=0; ii<n ; ii++){
+sum += data[ii];
+double arg= sum/n;
+}
+
+*array
+std::array<int,1000000> data;
+data [7]=20;
+*vectores: Se usa para datos muy grandes, guarda más que array->Mejor usar vectors
+std::vector<int> data;
+data.rezise (1000000);acá puedo no poner el tamaño y preguntarlo
+data [7]=20;
+
+banderas sanitizer que me ayudan
+-fsanitaze=leak
+-fsanitize=adress
