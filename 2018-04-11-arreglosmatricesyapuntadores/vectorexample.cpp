@@ -5,8 +5,8 @@
  const int N=10;
 
 void print (const std::vector<double> & a);
-void initialize (std::vector<double> & a);
 void average (const std::vector<double> & a);
+void initialize (std::vector<double> & a);
 
 int main(void)
 {
