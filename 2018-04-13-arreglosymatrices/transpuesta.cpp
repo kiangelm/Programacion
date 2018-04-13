@@ -1,7 +1,7 @@
 #include <iostream>
 
-const int N=5;
 const int M=3;
+const int N=5;
 
 int main (void)
 {
@@ -10,7 +10,7 @@ int main (void)
   //fill matrx
   for (int ii=0; ii<M; ++ii){
     for(int jj=0; jj<N ; ++jj){
-      A[ii][jj]= 1+ii*jj;
+      A[ii][jj]= ii*N + jj;
     }
   }
   
