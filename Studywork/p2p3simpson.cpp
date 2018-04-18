@@ -15,7 +15,7 @@ int main(void)
   exact=0.6022980709793;
   
   std::cout << "Simpson integral (n = 20) is : " << simpson(0, 1, 20, f) << std::endl;
-  std::cout<<"error is: "<< fabs(intes-exact/exact)<< std::endl;
+  std::cout<<"error is: "<< fabs(1-intes/exact)<< std::endl;
   
   return 0;
 }
