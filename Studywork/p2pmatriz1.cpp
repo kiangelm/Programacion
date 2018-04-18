@@ -21,7 +21,7 @@ int main (void)
 		  {0,0,1,0},
 		  {0,0,0,1}};
   double AP[M][N]={{0.0}}; 
-  double eps=0.1; 
+  double eps=0.012; 
   
   std::cout<<"Matriz original: \n";
   for(int i=0;i<M;i++){
