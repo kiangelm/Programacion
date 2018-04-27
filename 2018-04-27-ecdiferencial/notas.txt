@@ -1,0 +1,4 @@
+Resolución de ecuaciones diferenciales
+Método de Euler: Es un algoritmo inestable pero fácil de implementar
+¿Por qué un vector auxiliar? ¿Qué es eso? //cppreference es mucho mejor que c++.com
+compilar con -std=c++11
