@@ -1,0 +1,11 @@
+método runge-kuta para resolver un sistema de ec. diferenciasles ordinarias. El método de euler es el método más sencillo.
+En euler teniamos una funcion f que es la funcion que retorna las derivadas y define la evolucuión del sistema, una velocidad angular arbitraria.
+graficamos u 2:3 para mirar que tan bueno es el h (si es bueno debe dar un circulo o una elipes que con esoacios muy pequeños entre las lineas) h disminuye 10 veces y el error también. 
+La idea es usar otros métodos que con el mismo h mejore la precisión del sistema. Uno de ellos es el método runge-kuta. En este metodo si h disminuye 10 veces el error disminuye 1000 veces. Lo cual es una gran mejoría.
+La función rk4 define 5 vectores auxiliares, k1, k2,k3,k4 yout todos del mismo tamaño.
+*mirar bien que hace en el 15:25*
+Recordar indentar el código para poderlo leer y entender.
+rk4 es un algoritmo que nos permite una buena precision para un h graande. el problema es que llama muchas veces a f.
+También hay metodos rk4 adaptaivos pra algo mucho más serio.
+**Mirar los ejercicios que están desde el minuto 26**
+
